@@ -2,6 +2,8 @@ function fToM(){
 	//This is the function for Meters
 
   var measure = parseInt(document.getElementById("value1").value);
+			if (!value)
+			alert("Please enter a value")
 
   var Meters = measure * 0.3048;
   //This is the formula for the equation
