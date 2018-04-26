@@ -5,7 +5,7 @@ function fToM(){
   var meters = measure * 0.3048;
   var message = measure + ' feet converts to ' + meters + ' meters.';
 
-	console.flag (message);
-	document.getElementbyId("resultsentence").innerHTML = message;
+	console.log(message);
+	document.getElementById("resultsentence").innerHTML = message;
 
 }
